@@ -14,13 +14,19 @@
     "nes",
     "game"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "theboy",
+  "email": "theboy5140@gmail.com",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/theboy5140/MyNes/issues"
   },
-  "homepage": "https://github.com/theboy5140/MyNes#readme",
+  "homepage": "https://github.com/theboy5140/MyNes",
   "devDependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-init": "^0.3.2"
   }
 }
