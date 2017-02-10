@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         concat: {
             options: {
-                separator: ';'
+                // separator: ';'
             },
             dist: {
                 src: ['src/*.js'],
@@ -36,14 +36,12 @@ module.exports = function(grunt) {
         },
         watch: {
             files: ['<%= jshint.files %>'],
-            tasks: ['jshint']
+            tasks: ['default']
         }
     });
-
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.registerTask('default', ['jshint','concat', 'uglify']);
-
 };
