@@ -17,7 +17,7 @@
         window.MyNes = MyNes;
     }
 
-    var utils = {};
+    var utils = {};s
 
     utils.testCanvasSupport = function()
     {
